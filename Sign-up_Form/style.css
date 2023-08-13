@@ -1,0 +1,131 @@
+/* body{
+    background-image: url('background\ image.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    flex: 1;
+} */
+.container{
+    display: flex;
+    
+}
+
+.background{
+    background: aliceblue;
+    width:50%;
+    height:1000px;
+    flex: 1;
+    margin: 0;
+}
+.text_one{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 100px;
+   
+}
+.text_two{
+    font-size: 25px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.text_three{
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.text_four{
+    
+    font-size: 25px;
+    color: aliceblue;
+}
+
+form{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+    font-size: 1rem;
+ 
+}
+.input{
+        display: flex;
+    
+}
+label {
+    display: block;
+    margin-left: 20px;
+    width: 15rem;
+    margin-bottom: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+  input:focus {
+    border: none;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.342);
+    outline: none;
+  }
+  
+
+  button[type='submit'] {
+    padding: .8rem 1.3rem;
+    font-size: 1.3rem;
+    background-color: rgb(173, 73, 173);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    letter-spacing: -1px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
+  }
+  
+  button[type='submit']:hover {
+    background-color: rgb(126, 39, 126);
+  }
+
+  a{
+    color: rgb(173, 73, 173);
+  }
+ a:hover{
+    color: rgb(126, 39, 126);
+  }
+ 
+.fieldset_two {
+    width: 100%;
+    background-color: white;
+    
+  }
+
+  .fieldset_three{
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+
+  .logo{
+    background-image: url('background\ image.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    flex: 1;
+    background-color: transparent;
+    width:50%;
+    height:1000px;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+  }
+  .text_four{
+    margin-top: 80%;
+    text-align: center;
+  }
+
+  .center{
+    margin-top: 45%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 94px;
+    background-color: aliceblue;
+    opacity: 0.5;
+  }
+  .my_logo{
+    text-align: center;
+  }
